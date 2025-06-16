@@ -134,6 +134,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </form>
     <!-- form itself end -->
 
+    <!-- Chatbot CSS - Load before JS -->
+    <link rel="stylesheet" href="css/chatbot.css">
+
     <!-- JS here -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     
@@ -164,6 +167,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    
+    <!-- Chatbot JS -->
+    <script src="js/chatbot.js"></script>
+    
     <script>
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
